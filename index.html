@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+   <title>Laser studio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/hybrid.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!-- IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-1x fa-bars"></i></a>
+<nav id="sidebar-wrapper">
+    <!--  Optional: close button
+    <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-2x fa-times"></i></a> -->
+    <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+            <a href="#top">Laser Studio <i class="fa fa-power-off"></i></a>
+        </li>
+        <li>
+            <a href="#top">На верх</a>
+        </li>
+        <li>
+            <a href="#about">Преимущества</a>
+        </li>
+        <li>
+            <a href="#services">Услуги</a>
+        </li>
+        
+        <li>
+            <a href="#portfolio">Наши работы</a>
+        </li>
+        <li>
+            <a href="#testimonials">Отзывы</a>
+        </li>
+        <li>
+            <a href="#contact">Контакты</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Header -->
+<header id="top" class="header">
+        <div class="text-vertical">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1">
+                        <h1>Laser Studio
+                            <i class="fa fa-power-off"></i>
+                            <label class="label label-danger label-small">pro</label>
+                        </h1>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta eius saepe esse ab, eos nam deleniti
+                            laudantium corrupti delectus ut.</p>
+                        <h2>
+                            <i class="fa fa-heart"></i> Почему мы?</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A culpa necessitatibus voluptatum aspernatur
+                            ipsam fugiat velit sed beatae! Quis, cupiditate? Vel eius iusto iure! Similique harum animi mollitia
+                            facere recusandae!</p>
+
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <!-- Contact Form - Enter your email address on line 17 of the mail/contact_me.php file to make this form work. -->
+                        <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+                        <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+                        <form name="sentMessage" id="contactForm" novalidate>
+
+                            <h2>Записаться</h2>
+
+
+                            <div class="row control-group">
+                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                    <label for="name" class="sr-only control-label">Имя</label>
+                                    <input type="text" class="form-control input-lg" placeholder="Имя" id="name" required data-validation-required-message="Please enter your name.">
+                                    <span class="help-block text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="row control-group"">
+                            	<div class="form-group col-xs-12 floating-label-form-group controls">
+  <select class="form-control input-lg custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+    <option selected>Выберите услугу</option>
+    <option value="1">Удаление татуировки</option>
+    <option value="2">Перманентный макияж</option>
+    
+  </select>
+</div>
+  
+</div>
+                            <div class="row control-group">
+                                <div class="form-group col-lg-6 floating-label-form-group controls no-pad-right">
+                                    <label for="email" class="sr-only control-label">Email</label>
+                                    <input type="email" class="form-control input-lg" placeholder="Email" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <span class="help-block text-danger"></span>
+                                </div>
+                                <div class="form-group col-lg-6 floating-label-form-group controls">
+                                    <label for="phone" class="sr-only control-label">Телефон</label>
+                                    <input type="tel" class="form-control input-lg" placeholder="Телефон" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <span class="help-block text-danger"></span>
+                                </div>
+                            </div>
+                            <div id="success"></div>
+                            <div class="row">
+                                <div class="form-group col-xs-12">
+                                    <button type="submit" class="btn btn-lg btn-primary btn-block">Записаться</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- mouse -->
+                <span class="scroll-btn hidden-xs wow fadeInDownBig">
+                    <a href="#about">
+                        <span class="mouse">
+                            <span></span>
+                        </span>
+                    </a>
+                </span>
+                <!-- mouse -->
+            </div>
+        </div>
+
+
+    </header>
+
+<!-- about -->
+<!-- <section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center wow fadeIn">
+                <i class="fa fa-5x fa-h-square"></i><br>
+                <h2 class="heading">HybryX Landing Page is the perfect theme for your next project!</h2>
+                <p class="lead">HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- The icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->    <section class="about-grid" id="about">
+        <div class="container-fluid wow fadeIn">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".2s">
+                                <h3>
+                                    <i class="fa fa-heart fa-lg"></i> Lorem, ipsum.</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel numquam facilis facere! Sint,
+                                    recusandae vero illo odio nulla nam hic.</p>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".6s">
+                                <h3>
+                                    <i class="fa fa-heart fa-lg"></i> Lorem, ipsum dolor.</h3>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eum! Corrupti recusandae
+                                    ullam esse autem!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".6s">
+                                <h3>
+                                    <i class="fa fa-heart fa-lg"></i> Lorem ipsum dolor sit.</h3>
+                                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid autem tempore ab, repellendus
+                                    est placeat odit minima voluptatum accusantium fuga?</p>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay=".8s">
+                                <h3>
+                                    <i class="fa fa-heart fa-lg"></i> Lorem ipsum dolor sit.</h3>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ea ratione expedita quo ipsum
+                                    aliquid.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 hidden-sm img-about-greed text-center wow slideInRight" data-wow-duration="2s">
+                        <img class="img-responsive" src="http://via.placeholder.com/350x350" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- call-to-action -->
+<div class="call-to-action">
+    <div class="container-fluid">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div id="carousel-call-to-action" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-call-to-action" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-call-to-action" data-slide-to="1"></li>
+                        <li data-target="#carousel-call-to-action" data-slide-to="2"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="carousel-caption">
+                                <h2 class="heading">Заголовок 1</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid autem tempore ab, repellendus
+                                    est placeat odit minima voluptatum accusantium fuga?</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <h1>Заголовок 2</h1>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid autem tempore ab, repellendus
+                                    est placeat odit minima voluptatum accusantium fuga?</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <h2 class="heading">Заголовок 3</h2>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid autem tempore ab, repellendus
+                                    est placeat odit minima voluptatum accusantium fuga?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!--  <div class="col-lg-3 col-lg-offset-2 text-center wow fadeIn">
+                <br><i class="fa fa-5x fa-h-square"></i><br>
+                <a href="#" class="btn border-button">DOWNLOAD HybryX <i class="fa fa-power-off"></i></a>
+            </div> -->
+    </div>
+</div>
+
+<!-- services --><section id="services " class="head ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xs-12 text-center wow fadeIn ">
+                    <h2 class="heading ">Наши услуги</h2>
+                    <p class="lead ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus harum aliquid tempora dolorum optio,
+                        nam dolore, reiciendis cumque molestiae cum, repellat odio in doloremque. Blanditiis facere est sed
+                        enim rem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services ">
+        <div class="container-fluid ">
+            <div class="col-lg-10 col-lg-offset-1 ">
+                <div class="row wow fadeIn " data-wow-delay=".2s ">
+                    <div class="col-md-4 ">
+                        <h3>
+                            <i class="fa fa-heart fa-lg "></i> Lorem, ipsum.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quia, libero laudantium quis laborum
+                            asperiores.
+                        </p>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h3>
+                            <i class="fa fa-heart fa-lg "></i> Lorem, ipsum.</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellendus quisquam, ipsum
+                            sunt nihil consequatur veniam quis tempore minus autem.</p>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h3>
+                            <i class="fa fa-heart fa-lg "></i> Lorem, ipsum dolor.</h3>
+                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit recusandae mollitia itaque beatae
+                            eos ab enim dolores placeat quisquam voluptatum.</p>
+                    </div>
+                </div>
+                <div class="row wow fadeIn " data-wow-delay=".6s ">
+                    <div class="col-md-4 ">
+                        <h3>
+                            <i class="fa fa-heart fa-lg "></i> Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus maiores consequuntur numquam.</p>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h3>
+                            <i class="fa fa-heart fa-lg "></i> Lorem, ipsum.</h3>
+                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel porro vitae tempore officiis reprehenderit
+                            blanditiis.
+                        </p>
+                    </div>
+                    <div class="col-md-4 ">
+                        <h3>
+                            <i class="fa fa-heart fa-lg "></i> Lorem ipsum dolor sit.</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, atque!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- callout -->
+
+
+<!-- case-study -->
+<!-- <section id="case-study" class="head">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center wow fadeIn">
+                <h2 class="heading">Case Study</h2>
+                <p class="lead">HybryX will look beautiful on any device. Serve high-resolution images to devices with retina displays</p>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+<!-- Portfolio Grid Section -->
+<section id="portfolio " class="head ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xs-12 text-center wow fadeIn ">
+                    <h2 class="heading ">Наши работы</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nemo provident ab blanditiis itaque.
+                        Unde maxime deserunt blanditiis ipsa ullam!</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="portfolio">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-youtube-square fa-4x"></i>
+                        </div>
+                    </div>
+                    <img src="img/3.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-vimeo-square fa-4x"></i>
+                        </div>
+                    </div>
+                    <img src="img/1.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-picture-o fa-4x"></i>
+                        </div>
+                    </div>
+                    <img src="img/5.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-picture-o fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/8.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-picture-o fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/7.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                         <div class="caption-content">
+                            <i class="fa fa-picture-o fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/6.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            Caption Text
+                        </div>
+                    </div>
+                    <img src="img/2.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-3 portfolio-item no-pad">
+                <a data-target="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-picture-o fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/4.jpg" class="img-responsive" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modals -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://player.vimeo.com/video/59642733" allowfullscreen></iframe>
+            </div>
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://player.vimeo.com/video/113287920" allowfullscreen></iframe>
+            </div>
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+                <img src="img/5.jpg" class="img-responsive img-centered" alt="">
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+                <img src="img/8.jpg" class="img-responsive img-centered" alt="">
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+                <img src="img/7.jpg" class="img-responsive img-centered" alt="">
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+                <img src="img/6.jpg" class="img-responsive img-centered" alt="">
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+                <img src="img/2.jpg" class="img-responsive img-centered" alt="">
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <i class="fa fa-times fa-3x fa-fw"></i>
+        </div>
+        <div class="modal-body">
+            <h2>Project Title</h2>
+            <hr>
+                <img src="img/4.jpg" class="img-responsive img-centered" alt="">
+            <p>HybryX is a multipurpose, responsive, one page html (bootstrap) theme, will look beautiful on any device. HybryX easily and efficiently scales your project with one code base, from phones to tablets to desktops.</p>
+            <ul class="list-inline item-details">
+                <li>Client: <strong><a href="#">HybryX</a></strong></li>
+                <li>Date: <strong><a href="#">April 2015</a></strong></li>
+                <li>Service: <strong><a href="#">Web Development</a></strong></li>
+            </ul>
+            <button type="button" class="border-button-black" data-dismiss="modal">CLOSE</button>
+        </div>
+    </div>
+</div>
+
+<!-- testimonials -->
+<section id="testimonials">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <h2 class="heading">Отзывы</h2>
+
+                <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+                        <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="img/avatar1.jpg" alt="">
+                            <div class="carousel-caption">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat impedit porro inventore! Ratione possimus minus illum adipisci praesentium iusto.</p>
+                                <p class="carousel-name">Richard Miles, SomeCompany.com</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/avatar2.jpg" alt="">
+                            <div class="carousel-caption">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat impedit porro inventore! Ratione possimus minus illum adipisci praesentium iusto.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/avatar3.jpg" alt="">
+                            <div class="carousel-caption">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quaerat impedit porro inventore! Ratione possimus minus illum adipisci praesentium iusto.</p>
+                                <p class="carousel-name">Jane Roe, SomeCompany.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- sponsors -->
+<!-- <div id="sponsor">
+    <div class="container-fluid">
+        <div class="row sponsor text-center wow fadeInLeftBig">
+            <div class="col-md-2 gray col-md-offset-1">
+                <a href="/"><img src="img/logo1.png" alt=""></a>
+            </div>
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo2.png" alt=""></a>
+            </div>
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo3.png" alt=""></a>
+            </div>
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo4.png" alt=""></a>
+            </div>
+            <div class="col-md-2 gray">
+                <a href="/"><img src="img/logo5.png" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+ -->
+<!-- contacts -->
+<div id="contact">
+    <div class="container-fluid overlay text-center">
+        <div class="col-md-6 col-md-offset-3 wow fadeIn">
+            <h2 class="heading">Контакты</h2>
+            <h2><i class="fa fa-phone fa-fw"></i>(999) 999-9999</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis libero eveniet commodi? Pariatur perspiciatis sint provident aperiam modi libero unde.</p>
+                <ul class="list-inline">
+                    <li>
+                        <a href="/"><i class="fab fa-facebook fa-3x"></i></a>
+                    </li>
+                                        <li>
+                        <a href="/"><i class="fab fa-instagram fa-3x"></i></a>
+                    </li>
+                </ul>
+        </div>
+       
+       
+    </div>
+</div>
+
+<!-- footer -->
+<footer>
+    <div class="container text-muted text-center wow fadeIn">
+        
+        <p>&copy;2018 Laser Studio</p>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- jQuery Plugins -->
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.placeholder.min.js"></script>
+
+<!-- Custom Theme JavaScripts -->
+<script src="js/hybrid.js"></script>
+
+</body>
+</html>
