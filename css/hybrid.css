@@ -438,7 +438,15 @@ label {
 .case-study img {
   height: 675px;
 }
-
+@media (max-width: 767px) {
+  .grid-item img {
+  max-height: 100% !important ;
+  width: auto;
+}
+.grid {
+  flex-direction: column;
+}
+}
 @media (max-width: 1200px) {
   .case-study img {
     padding-top: 40px;
@@ -773,4 +781,19 @@ footer,
   #contact {
     background-attachment: scroll;
   }
+}
+.grid-item img {
+  max-height: 200px;
+  width: auto;
+}
+.grid-item {
+  padding: 3px;
+}
+.container-fluid.grid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.grid {
+  display: flex;
+  justify-content: center;
 }
